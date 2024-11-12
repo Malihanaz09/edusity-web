@@ -1,0 +1,30 @@
+.home{
+    background-color: aqua;
+    padding: 150px 50px;
+    margin: 20px 0px;
+    text-align: center;
+    height: 80vh;
+}
+.home-content{
+    padding: 0% 20%;
+}
+.home h1{
+    color: white;
+}
+.home p{
+    color: white;
+    padding: 10px;
+}
+.home button{
+    background-color: #fff;
+    color: black;
+}
+
+@media (max-width: 1200px) {
+    .home{
+        background-color: red;
+        padding: 10px 0px;
+        margin: 20px 0px;
+     
+    } 
+}
