@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import { Form, Input, Button, Checkbox } from 'antd';
+import { Form, Input, Checkbox } from 'antd';
 
 const MyForm = () => {
   const [form] = Form.useForm();
@@ -67,9 +67,7 @@ const MyForm = () => {
       </Form.Item>
 
       <Form.Item>
-        <Button type="primary" htmlType="submit">
-          Submit
-        </Button>
+        <button>Submit</button>
       </Form.Item>
     </Form>
   );

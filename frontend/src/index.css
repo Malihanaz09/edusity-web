@@ -18,16 +18,15 @@ a{
   line-height: 1;
   cursor: pointer
 }
-.container{
-  background-image: url('/assets/images/hero-img.png') no-repeat;
+/* .container{
   background-size: contain;
-}
+} */
 .app{
   padding-left: 10%;
   padding-right: 10%;
 }
 h1{
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   padding: 10px;
 
@@ -51,9 +50,7 @@ button{
   align-items: center;
   justify-content: center
 }
-button:hover{
-  box-shadow: 5px 5px 10px black;
-}
+
 .footer{
   margin: 15px;
   padding: 10px;
@@ -65,10 +62,6 @@ img{
   margin: 10px;
   border-radius: 20px;
   text-align: center;
-}
-
-.compus-img{
-  width: 40%;
 }
 
 

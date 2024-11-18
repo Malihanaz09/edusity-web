@@ -1,15 +1,16 @@
 // import React from 'react'
 import Video from '../../../assets/images/about-video.png'
+import './about.css'
 
 function AboutUs() {
   return (
-   <div className="container about">
+   <div className="container-about" id='about'>
     <div className="about-video">
        <img src={Video} alt="" />
     </div>
     <div className="about-content">
       <h6>ABOUT UNIVERSITY</h6>
-       <h1>Nurturing Tomorrow`s Leaders Today</h1>
+       <h1>Nurturing Tomorrow`s <br /> Leaders Today</h1>
        <p>Embark on a transformative educational journey with our university`s comprehensive education programs. Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.
         <br />
         <br />

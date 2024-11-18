@@ -31,7 +31,7 @@
   }
   
   .navbar .btn{
-    padding: 12px;
+    padding: 10px;
     border: none;
     border-radius: 50px;
     color: black;
@@ -61,12 +61,13 @@
       flex-direction: column;
       position: absolute;
       top: 60px;
-      right: 0;
-      left: 400px;
-      background-color:  rgb(37, 55, 161);
-      height: calc(100vh - 60px);
+      right: 20px;
+      left: 200px;
+      background-color:  rgb(37, 57, 168);
+      height: calc(100vh - 200px);
       align-items: center;
       justify-content: center;
+      z-index: 3;
     }
   
     .nav-links-mobile li {

@@ -1,7 +1,17 @@
+.program-container h6{
+    text-align: center;
+}
 .program-img{
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .program-img img{
+        width: 280px;
+    }
 }

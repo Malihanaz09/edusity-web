@@ -1,0 +1,71 @@
+/* Slider Main Container */
+.slider-main {
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    /* overflow: hidden; Scroll overflow ko chhupane ke liye */
+    /* background-color: #f9f9f9; Background color for slider */
+    /* padding: 20px 0; */
+  }
+
+/* .slider-container{
+    display: flex;
+    gap: 40px;
+    transition: transform 0.5s ease-in-out;
+}
+.slider-content{
+    flex: 0 0 45%; /* 45% width for each slide (2 slides in one view) */
+    /* background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+/* }  */
+
+.slider-container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .slider-content {
+    text-align: center;
+    padding: 10px;
+  }
+
+.slider-title{
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+.slider-content img{
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.slider-heading h3{
+    color: blue;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .slider-content {
+      flex: 0 0 90%; /* For smaller screens, show one slide at a time */
+    }
+    .slider-title{
+      /* background-color: brown; */
+      display: block;
+      margin: 10px;
+  }
+  .slider-content {
+    text-align: start;
+    padding: 5px;
+    /* margin: 10px; */
+  }
+  .slider-content p{
+    font-size: 12px;
+
+  }
+  }
