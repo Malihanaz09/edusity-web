@@ -18,13 +18,13 @@ function Contactus() {
      <div className="contact-left">
       <div className="contact-icon">
        <h3>Send us a message</h3>
-       <img style={{width:'10%'}} src={Msge} alt="" />
+       <img style={{width:'10%', borderRadius:"none"}} src={Msge} alt="" />
        </div>
        
        <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
       
        <div className="contact-icon">
-       <img style={{width:'25px'}}  src={Email} alt="" />
+       <img style={{width:'25px', borderRadius:"none"}}  src={Email} alt="" />
        <h5>Contact@GreatStack.dev</h5>
        </div>
 
